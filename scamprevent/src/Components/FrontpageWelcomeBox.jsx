@@ -1,5 +1,4 @@
 import React from 'react';
-import { AppBar, Button, IconButton } from '@material-ui/core';
 
 const FrontpageWelcomeBox = () => {
     
@@ -8,7 +7,7 @@ const FrontpageWelcomeBox = () => {
     "Dette er en interaktiv side der vil hjælpe dig til at tænke mere kritisk når du befærder dig på nettet ",
     "for at undgå at blive snydt.",<br/>,
     "Når du trykker på start nedenfor vil du blive præsenteret for en række bedrageriske scenarier, hvor du skal udpege ",
-    "hvad der gør at man kan se, at det er bedrag."
+    "hvordan man kan se, at det er bedrag."
     ];
 
     return (

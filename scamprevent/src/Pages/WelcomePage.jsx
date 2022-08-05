@@ -1,6 +1,5 @@
 import React from 'react';
-
-import { AppBar, CssBaseline, IconButton, makeStyles } from '@material-ui/core';
+import {CssBaseline} from '@material-ui/core';
 import background from "../Assets/FrontpageBackground.jpg";
 
 /* Components */
@@ -17,10 +16,11 @@ const WelcomePage = () => {
         backgroundRepeat: 'no-repeat',
         minHeight: '100vh',
         WebkitBackgroundSize: 'cover'
-        }}>
+        }}> 
             <FrontpageWelcomeBox/>
             <FrontpageMenuButton/>
             <FrontpageStartButton/>
+            
             {/* Eliminate padding and nodging */}
             <CssBaseline/> 
         </div>
