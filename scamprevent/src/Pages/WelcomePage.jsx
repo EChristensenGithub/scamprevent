@@ -1,6 +1,7 @@
 import React from 'react';
-import {CssBaseline} from '@material-ui/core';
+import {CssBaseline, Grid} from '@material-ui/core';
 import background from "../Assets/FrontpageBackground.jpg";
+import FrontpageStartButtonCSS from '../Styles/FrontpageStartButtonCSS.css';
 
 /* Components */
 import FrontpageMenuButton from '../Components/FrontpageMenuButton';
@@ -17,10 +18,11 @@ const WelcomePage = () => {
         minHeight: '100vh',
         WebkitBackgroundSize: 'cover'
         }}> 
-            <FrontpageWelcomeBox/>
             <FrontpageMenuButton/>
-            <FrontpageStartButton/>
-            
+            <div className='frontpagegrid'>
+               <FrontpageWelcomeBox/> 
+               <FrontpageStartButton/> 
+            </div>
             {/* Eliminate padding and nodging */}
             <CssBaseline/> 
         </div>
